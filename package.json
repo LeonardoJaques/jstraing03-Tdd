@@ -1,0 +1,29 @@
+{
+  "name": "jstraing03-Tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx mocha --parallet --exit test/",
+    "test:dev": "npx mocha test/ -w",
+    "test:cov": "npx nyc --reporter=html npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonardoJaques/jstraing03-Tdd.git"
+  },
+  "keywords": [],
+  "author": "Leonardo Jaques",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeonardoJaques/jstraing03-Tdd/issues"
+  },
+  "homepage": "https://github.com/LeonardoJaques/jstraing03-Tdd#readme",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lokijs": "^1.5.11",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^9.2.4"
+  }
+}
